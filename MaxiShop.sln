@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxiShop.Web", "..\MaxiShop\MaxiShop.Web\MaxiShop.Web.csproj", "{5764D49E-E8FC-40BA-A711-A2C6F032A4E9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{857BB6E6-576F-4EB1-82ED-1989CF9AB7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +20,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5764D49E-E8FC-40BA-A711-A2C6F032A4E9} = {857BB6E6-576F-4EB1-82ED-1989CF9AB7E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B376517-3EFE-450E-BFAB-56CFBB64394A}
