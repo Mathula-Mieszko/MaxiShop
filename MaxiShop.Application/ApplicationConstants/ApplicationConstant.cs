@@ -22,5 +22,11 @@ namespace MaxiShop.Application.ApplicationConstants
 
         public const string RecordNotFound = "Record Not Found!";
         public const string SystemError = "Something Went Wrong!";
+
+        public const string RegisterationSuccess = "Registeration Success!";
+        public const string RegisterationFailed = "Registeration Failed!";
+
+        public const string LoginSuccess = "Login Success!";
+        public const string LoginFailed = "Login Failed!";
     }
 }
