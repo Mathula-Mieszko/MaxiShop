@@ -108,7 +108,7 @@ namespace MaxiShop.Application.Services
             var result = await _userManager.CreateAsync(ApplicationUser,register.Password);
 
             if (result.Succeeded) {
-                await _userManager.AddToRoleAsync(ApplicationUser, "ADMIN");
+                await _userManager.AddToRoleAsync(ApplicationUser, "CUSTOMER");
             }
 
             return result.Errors;
